@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Heading Section */
+h1.display-4 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn-primary, .btn-success {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+/* Loading Spinner Styles */
+#loadingSpinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* History List Styles */
+#historyList .list-group-item {
+    margin-bottom: 10px;
+}
+
+/* Code Styling */
+code {
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 15px;
+}
+
+/* Textarea Styles */
+#editableCommand {
+    font-family: 'Courier New', Courier, monospace;
+}
